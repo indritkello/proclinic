@@ -160,7 +160,7 @@ export function TopSection() {
     window.location.href=url;
   };
   return (
-    <TopSectionContainer>
+    <TopSectionContainer id="product">
       <LeftContainer>
         <Slogan>Get The Best System For Your Clinic </Slogan>
         <Description>
@@ -179,10 +179,10 @@ export function TopSection() {
       </LeftContainer>
       <RightContainer>
         <BlobContainer>
-          <img src={BlobImg} />
+          <img src={BlobImg} alt="Animation" />
         </BlobContainer>
         <StandaloneProduct>
-          <img src={LaptopScreenImg} />
+          <img src={LaptopScreenImg} alt="Product in devices" />
         </StandaloneProduct>
       </RightContainer>
     </TopSectionContainer>

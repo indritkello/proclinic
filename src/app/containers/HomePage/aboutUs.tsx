@@ -82,7 +82,7 @@ export function AboutUs() {
   return (
     <AboutUsContainer id="about">
       <ImageContainer>
-        <img src={ToolImg} />
+        <img src={ToolImg} alt="Assistance HealthTech" />
       </ImageContainer>
       <InfoContainer>
         <Title>Experienced in HealthTech </Title>

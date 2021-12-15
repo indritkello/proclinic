@@ -42,7 +42,7 @@ export function NavItems() {
       <Menu right styles={menuStyles}>
         <ListContainer>
           <NavItem menu>
-            <a href="#">Home</a>
+            <a href="#product">Home</a>
           </NavItem>
           <NavItem menu>
             <a href="#features">Features</a>
@@ -57,7 +57,7 @@ export function NavItems() {
   return (
     <ListContainer>
       <NavItem>
-        <a href="#">Home</a>
+        <a href="#product">Home</a>
       </NavItem>
       <NavItem>
         <a href="#features">Features</a>
