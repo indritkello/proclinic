@@ -23,7 +23,7 @@ cursor-pointer
 transition
 duration-300 
 ease-in-out 
-hover: text-gray-700 
+hover:(text-gray-700)
 `};
   ${({ menu }) =>
     menu && css`
